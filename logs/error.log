@@ -1,0 +1,33 @@
+2025/07/15 16:26:10 [emerg] 22672#9048: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2025/07/16 15:53:55 [emerg] 20384#21856: "server" directive is not allowed here in C:\nginx-1.28.0/conf/nginx.conf:3
+2025/07/16 15:55:35 [emerg] 14548#22852: "server" directive is not allowed here in C:\nginx-1.28.0/conf/nginx.conf:3
+2025/07/16 15:55:56 [emerg] 25360#22840: "server" directive is not allowed here in C:\nginx-1.28.0/conf/nginx.conf:3
+2025/07/16 15:58:24 [emerg] 14536#27312: "server" directive is not allowed here in C:\nginx-1.28.0/conf/nginx.conf:3
+2025/07/16 15:58:36 [emerg] 25460#27952: "server" directive is not allowed here in C:\nginx-1.28.0/conf/nginx.conf:3
+2025/07/16 16:02:18 [emerg] 7732#20756: invalid value "/pageNotFound.html" in C:\nginx-1.28.0/conf/nginx.conf:18
+2025/07/16 16:02:37 [emerg] 17376#27020: no "events" section in configuration
+2025/07/16 16:02:50 [notice] 23292#9968: signal process started
+2025/07/16 16:02:50 [error] 23292#9968: CreateFile() "C:\nginx-1.28.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/07/16 16:05:52 [error] 24856#1180: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:5000/?host=localhost&uri=/", host: "localhost:8080"
+2025/07/16 16:05:55 [error] 24856#1180: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:5000/?host=localhost&uri=/favicon.ico", host: "localhost:8080", referrer: "http://localhost:8080/"
+2025/07/16 16:07:14 [notice] 28024#25584: signal process started
+2025/07/16 16:07:28 [error] 24856#1180: *6 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:5000/?host=localhost&uri=/", host: "localhost:8080"
+2025/07/16 16:07:30 [error] 24856#1180: *6 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:5000/?host=localhost&uri=/favicon.ico", host: "localhost:8080", referrer: "http://localhost:8080/"
+2025/07/16 16:07:37 [error] 24856#1180: *6 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:5000/?host=localhost&uri=/", host: "localhost:8080"
+2025/07/16 16:07:40 [error] 24856#1180: *6 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:5000/?host=localhost&uri=/favicon.ico", host: "localhost:8080", referrer: "http://localhost:8080/"
+2025/07/16 16:07:53 [error] 24856#1180: *6 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:5000/?host=localhost&uri=/", host: "localhost:8080"
+2025/07/16 16:07:56 [error] 24856#1180: *6 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:5000/?host=localhost&uri=/favicon.ico", host: "localhost:8080", referrer: "http://localhost:8080/"
+2025/07/16 16:08:53 [error] 24856#1180: *15 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:5000/?host=localhost&uri=/", host: "localhost:8080"
+2025/07/16 16:16:23 [notice] 21428#15384: signal process started
+2025/07/16 16:18:30 [notice] 27584#1532: signal process started
+2025/07/16 16:21:06 [notice] 9900#19196: signal process started
+2025/07/16 16:21:50 [notice] 18580#6836: signal process started
+2025/07/16 16:28:04 [notice] 4376#10604: signal process started
+2025/07/16 16:28:15 [notice] 13216#9880: signal process started
+2025/07/16 16:28:15 [error] 13216#9880: CreateFile() "C:\nginx-1.28.0/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2025/07/16 19:37:18 [notice] 17892#28500: signal process started
+2025/07/17 17:03:31 [notice] 30920#31172: signal process started
+2025/07/19 16:28:45 [notice] 32188#36028: signal process started
+2025/07/30 14:42:09 [error] 35756#32528: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /site1001 HTTP/1.1", upstream: "http://127.0.0.1:5000/?host=localhost&uri=/site1001", host: "localhost:8080"
+2025/07/30 14:42:12 [error] 35756#32528: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:5000/?host=localhost&uri=/favicon.ico", host: "localhost:8080", referrer: "http://localhost:8080/site1001"
+2025/07/30 14:44:03 [notice] 21620#33128: signal process started

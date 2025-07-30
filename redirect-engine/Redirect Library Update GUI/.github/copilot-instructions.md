@@ -1,0 +1,3 @@
+<!-- Use this file to provide workspace-specific custom instructions to Copilot. For more details, visit https://code.visualstudio.com/docs/copilot/copilot-customization#_use-a-githubcopilotinstructionsmd-file -->
+
+This workspace contains a React frontend (Vite + TypeScript) and a Python Flask backend for editing an Excel-based redirect library. The backend exposes REST API endpoints for CRUD operations on Request URL - Redirect URL pairs. The frontend should consume these endpoints and provide a user-friendly interface for internal users to manage the redirect library with error checking and validation.

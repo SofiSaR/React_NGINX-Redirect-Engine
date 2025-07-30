@@ -1,0 +1,24 @@
+# Logs
+redirect-engine/Redirect Engine Update GUI/logs
+redirect-engine/Redirect Engine Update GUI/*.log
+redirect-engine/Redirect Engine Update GUI/npm-debug.log*
+redirect-engine/Redirect Engine Update GUI/yarn-debug.log*
+redirect-engine/Redirect Engine Update GUI/yarn-error.log*
+redirect-engine/Redirect Engine Update GUI/pnpm-debug.log*
+redirect-engine/Redirect Engine Update GUI/lerna-debug.log*
+
+redirect-engine/Redirect Engine Update GUI/node_modules
+redirect-engine/Redirect Engine Update GUI/dist
+redirect-engine/Redirect Engine Update GUI/dist-ssr
+redirect-engine/Redirect Engine Update GUI/*.local
+
+# Editor directories and files
+redirect-engine/Redirect Engine Update GUI/.vscode/*
+redirect-engine/Redirect Engine Update GUI/!.vscode/extensions.json
+redirect-engine/Redirect Engine Update GUI/.idea
+redirect-engine/Redirect Engine Update GUI/.DS_Store
+redirect-engine/Redirect Engine Update GUI/*.suo
+redirect-engine/Redirect Engine Update GUI/*.ntvs*
+redirect-engine/Redirect Engine Update GUI/*.njsproj
+redirect-engine/Redirect Engine Update GUI/*.sln
+redirect-engine/Redirect Engine Update GUI/*.sw?

@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'GT America Extended Light';
+    src: url('/src/assets/GTAmerica-ExtendedLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --common-font: 'GT America Extended Light', sans-serif;
+
+    --primary: #0D58AF;
+    --secondary: #73C2FC;
+    --tertiary: #0F1632;
+    --background-color: white;
+    --text-color: black;
+    --item-text-color: white;
+    --dark-red: #75130B;
+    --light-red: #FF3C28;
+    --gray: #A4ACAF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--common-font), sans-serif;
+    font-size: 15px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+}
+
+button {
+    background-color: var(--tertiary);
+    color: var(--item-text-color);
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    height: 40px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
+    width: 100%;
+    padding: 3.5rem 0rem;
+    border-radius: 2rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    background-color: var(--background-color);
+}

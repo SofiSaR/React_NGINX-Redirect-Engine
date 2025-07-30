@@ -1,0 +1,107 @@
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+#root {
+    width: 100%;
+    height: 100vh;
+}
+
+#redirects-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: var(--primary);
+    color: var(--item-text-color);
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    & > button {
+        background-color: transparent;
+        font-weight: 600;
+        font-size: 19px;
+    }
+}
+
+main {
+    width: 100%;
+    flex: 1;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.main-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-inputs {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    & > input {
+        max-width: 25rem;
+    }
+}
+
+.table-header {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 2fr 2fr;
+    padding: 0 4rem 1.5rem 4rem;
+    flex: 0 0 auto;
+}
+
+.add-section {
+    display: grid;
+    grid-template-columns: 3.5fr 3.5fr 2fr 2fr;
+    align-items: center;
+    padding: 1rem calc(4rem + 16px) 0 4rem;
+    flex: 0 0 auto;
+    gap: 1rem;
+}
+
+.add-save {
+    background-color: var(--secondary);
+    color: var(--text-color);
+}
+
+.cancel {
+    background-color: var(--gray);
+    color: var(--text-color);
+}
+
+.cell {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+}
+
+button {
+    justify-content: center;
+}
+
+.add-redirect {
+    margin: 1rem calc(4rem + 16px) 0 4rem;
+}
