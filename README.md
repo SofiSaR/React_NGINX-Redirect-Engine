@@ -52,9 +52,13 @@ This project uses an Excel file instead of a database to minimize administrative
 - Open a PowerShell terminal.
 - Navigate to: `redirect-engine/Redirect Library Update GUI/backend/`
 - Run the backend:
-  ```python .\redirects-update-service.py```
+  ```
+  python .\redirects-update-service.py
+  ```
 - Installing the bcrypt library for checking password validity may be required:
-  ```pip install bcrypt```
+  ```
+  pip install bcrypt
+  ```
 - The backend's functions can be accessed by the frontend via requests to API endpoints:
   - [`http://127.0.0.1:5001/api/redirects`](http://127.0.0.1:5001/api/redirects)
   - [`http://127.0.0.1:5001/api/login`](http://127.0.0.1:5001/api/login)
@@ -65,14 +69,18 @@ This project uses an Excel file instead of a database to minimize administrative
 - Open a new terminal (keep the backend terminal open).
 - Navigate to: `redirect-engine/Redirect Library Update GUI/`
 - Install dependencies:
-  ```npm install```
+  ```
+  npm install
+  ```
 - If needed, install additional packages:
   ```
   npm install react-window
   npm install react-window-infinite-loader
   ```
 - Start the React application:
-  ```npm run```
+  ```
+  npm run
+  ```
 - Access the GUI at [http://localhost:5173](http://localhost:5173).
 
 Now, a user who visits the URL [http://localhost:5173](http://localhost:5173) and logs in with username "admin" and password "password" will be able to edit the Excel data.
@@ -83,9 +91,13 @@ Now, a user who visits the URL [http://localhost:5173](http://localhost:5173) an
 
 - In the base directory containing `nginx.exe`, open a PowerShell terminal.
 - Start NGINX:
-  ```start nginx```
+  ```
+  start nginx
+  ```
 - To stop NGINX if desired later (don't stop it while you want to pipeline to be working):
-  ```.\nginx -s stop```
+  ```
+  .\nginx -s stop
+  ```
 - NGINX will now handle requests to URLs starting with [`http://localhost:8080/`](http://localhost:8080/) by sending the request to the redirect pipeline.
 
 ### 2. Start the Python Flask Redirect Pipeline
@@ -93,9 +105,12 @@ Now, a user who visits the URL [http://localhost:5173](http://localhost:5173) an
 - With NGINX running, open another terminal.
 - Navigate to: `redirect-engine/`
 - Start the redirect pipeline:
-  ```python .\redirect-engine.py```
+  ```
+  python .\redirect-engine.py
+  ```
 - The pipeline should now be available to the NGINX server at address [`http://127.0.0.1:5000/`](http://127.0.0.1:5000/).
 
 Now, any user that enters a URL such as [`http://localhost:8080/site0100`](http://localhost:8080/site0100) in their browser, for example, will be redirected to the redirect URL corresponding to the request URL `http://localhost/site0100` in the Excel file.
+
 
 *Note:* Both the redirect pipeline and the redirect management program's backend assume that the Excel file is in the parent directory redirect-engine that they are both in. I would recommend similarly collocating these programs with the Excel file in an organizational environment due to their interdependence. If they are on separate containers or nodes, any references to the Excel file in redirect-engine.py and redirect-update-service.py will need to be updated.
