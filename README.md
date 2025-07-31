@@ -110,7 +110,7 @@ Now, a user who visits the URL [http://localhost:5173](http://localhost:5173) an
   ```
 - The pipeline should now be available to the NGINX server at address [`http://127.0.0.1:5000/`](http://127.0.0.1:5000/).
 
-Now, any user that enters a URL such as [`http://localhost:8080/site0100`](http://localhost:8080/site0100) in their browser, for example, will be redirected to the redirect URL corresponding to the request URL `http://localhost/site0100` in the Excel file.
+Now, any user that enters a URL such as [`http://localhost:8080/site0100`](http://localhost:8080/site0100) in their browser, for example, will be redirected to the redirect URL corresponding to the request URL [`http://localhost/site0100`](http://localhost/site0100) in the Excel file.
 
 
 *Note:* Both the redirect pipeline and the redirect management program's backend assume that the Excel file is in the parent directory redirect-engine that they are both in. I would recommend similarly collocating these programs with the Excel file in an organizational environment due to their interdependence. If they are on separate containers or nodes, any references to the Excel file in redirect-engine.py and redirect-update-service.py will need to be updated.
