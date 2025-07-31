@@ -40,9 +40,9 @@ This project uses an Excel file instead of a database to minimize administrative
 - **Sorting Entries:** N/A (alphabetic order maintained)
 - **Searching for a redirect URL given the request URL, or vice versa:** $$O(\log n)$$
 - **Updating an entry (given the index of the entry from the GUI):** $$O(1)$$
-- **Updating an entry from data that has been filtered (iven the request URL of the entry from the GUI):** $$O(\log n)$$
+- **Updating an entry from data that has been filtered (given the request URL of the entry from the GUI):** $$O(\log n)$$
 - **Deleting an entry (given the index of the entry from the GUI):** $$O(1)$$
-- **Deleting an entry from data that has been filtered (iven the request URL of the entry from the GUI):** $$O(\log n)$$
+- **Deleting an entry from data that has been filtered (given the request URL of the entry from the GUI):** $$O(\log n)$$
 - **Adding an entry:** $$O(\log n)$$
 
 ## How to Run the Redirect Library Management Service
